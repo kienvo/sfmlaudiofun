@@ -49,6 +49,7 @@ private:
 			}
 		}
 	}
+	//https://rosettacode.org/wiki/Fast_Fourier_transform#C
 	void fft(CArray& x)
 	{
 		const size_t N = x.size();
